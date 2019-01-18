@@ -4,7 +4,6 @@ import {createRecord, readRecord, updateRecord} from './localStorageService';
 
 const storeSelectedLanguage = (lang: string, changeLang: () => string): any => (e: React.MouseEvent) => {
     const selectedLanguage = changeLang();
-    console.log('><>> sleelang: ', selectedLanguage)
     if (readRecord('lang')) {
         updateRecord('lang', selectedLanguage);
     } else {
