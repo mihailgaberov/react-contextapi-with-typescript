@@ -1,6 +1,7 @@
 {
   "lang": "DE",
-  "title": "Einstellungen-Seite",
+  "settingsPageName": "Einstellungen-Seite",
+  "chatPageName": "Gespräch-Seite",
   "nav": {
     "chatTabLabel": "Gespräch",
     "settingsTabLabel": "Einstellungen"
