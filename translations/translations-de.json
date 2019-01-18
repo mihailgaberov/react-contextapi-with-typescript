@@ -1,7 +1,9 @@
 {
   "lang": "DE",
+  "title": "Einstellungen-Seite",
   "nav": {
-    "chatTabLabel": "ChatDE",
-    "settingsTabLabel": "SettingsDE"
-  }
+    "chatTabLabel": "Gespräch",
+    "settingsTabLabel": "Einstellungen"
+  },
+  "buttonLabel": "Ändern Sprache"
 }

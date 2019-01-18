@@ -1,7 +1,9 @@
 {
   "lang": "EN",
+  "title": "Settings page",
   "nav": {
     "chatTabLabel": "Chat",
     "settingsTabLabel": "Settings"
-  }
+  },
+  "buttonLabel": "Change language"
 }
