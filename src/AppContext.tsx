@@ -1,11 +1,13 @@
 import * as React from "react";
 
 export interface IAppContextInterface {
+  buttonLabel: string;
   lang: string;
   nav: {
     chatTabLabel: string,
     settingsTabLabel: string
   };
+  title: string;
 }
 
 

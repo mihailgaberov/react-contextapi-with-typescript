@@ -1,10 +1,10 @@
 import * as React from "react";
-import { withAppContext } from "./AppContext";
+import {IAppContextInterface, withAppContext} from "./AppContext";
 
-const LangSwitcher = ({ appContext, changeLanguage }: any) =>
+const LangSwitcher = ({ appContext, changeLanguage }: {appContext: IAppContextInterface, changeLanguage: () => void}) =>
   appContext && (
     <React.Fragment>
-      <button type="button" onClick={changeLanguage}>Change language</button>
+      <button type="button" onClick={changeLanguage}>{appContext.buttonLabel}</button>
     </React.Fragment>
   );
 
